@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: cb0c1b048f3df4a428ca61338462c806
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: HAIRCUT_A
+  - first:
+      1: 100004
+    second: HAIRCUT_B
+  - first:
+      1: 100006
+    second: HOBBIT_BODY_Low_UVed
+  - first:
+      1: 100008
+    second: HOBBIT_CLOAK
+  - first:
+      1: 100010
+    second: Objet001
+  - first:
+      1: 100012
+    second: sword
+  - first:
+      1: 100014
+    second: Factice001
+  - first:
+      1: 100016
+    second: HOBBIT
+  - first:
+      1: 100018
+    second: HOBBIT_
+  - first:
+      1: 100020
+    second: HOBBIT_ Head
+  - first:
+      1: 100022
+    second: HOBBIT_ L Calf
+  - first:
+      1: 100024
+    second: HOBBIT_ L Clavicle
+  - first:
+      1: 100026
+    second: HOBBIT_ L Finger0
+  - first:
+      1: 100028
+    second: HOBBIT_ L Finger01
+  - first:
+      1: 100030
+    second: HOBBIT_ L Finger02
+  - first:
+      1: 100032
+    second: HOBBIT_ L Finger1
+  - first:
+      1: 100034
+    second: HOBBIT_ L Finger11
+  - first:
+      1: 100036
+    second: HOBBIT_ L Finger12
+  - first:
+      1: 100038
+    second: HOBBIT_ L Finger2
+  - first:
+      1: 100040
+    second: HOBBIT_ L Finger21
+  - first:
+      1: 100042
+    second: HOBBIT_ L Finger22
+  - first:
+      1: 100044
+    second: HOBBIT_ L Finger3
+  - first:
+      1: 100046
+    second: HOBBIT_ L Finger31
+  - first:
+      1: 100048
+    second: HOBBIT_ L Finger32
+  - first:
+      1: 100050
+    second: HOBBIT_ L Finger4
+  - first:
+      1: 100052
+    second: HOBBIT_ L Finger41
+  - first:
+      1: 100054
+    second: HOBBIT_ L Finger42
+  - first:
+      1: 100056
+    second: HOBBIT_ L Foot
+  - first:
+      1: 100058
+    second: HOBBIT_ L Forearm
+  - first:
+      1: 100060
+    second: HOBBIT_ L Hand
+  - first:
+      1: 100062
+    second: HOBBIT_ L Thigh
+  - first:
+      1: 100064
+    second: HOBBIT_ L Toe0
+  - first:
+      1: 100066
+    second: HOBBIT_ L UpperArm
+  - first:
+      1: 100068
+    second: HOBBIT_ Neck
+  - first:
+      1: 100070
+    second: HOBBIT_ Pelvis
+  - first:
+      1: 100072
+    second: HOBBIT_ Queue de cheval 1
+  - first:
+      1: 100074
+    second: HOBBIT_ R Calf
+  - first:
+      1: 100076
+    second: HOBBIT_ R Clavicle
+  - first:
+      1: 100078
+    second: HOBBIT_ R Finger0
+  - first:
+      1: 100080
+    second: HOBBIT_ R Finger01
+  - first:
+      1: 100082
+    second: HOBBIT_ R Finger02
+  - first:
+      1: 100084
+    second: HOBBIT_ R Finger1
+  - first:
+      1: 100086
+    second: HOBBIT_ R Finger11
+  - first:
+      1: 100088
+    second: HOBBIT_ R Finger12
+  - first:
+      1: 100090
+    second: HOBBIT_ R Finger2
+  - first:
+      1: 100092
+    second: HOBBIT_ R Finger21
+  - first:
+      1: 100094
+    second: HOBBIT_ R Finger22
+  - first:
+      1: 100096
+    second: HOBBIT_ R Finger3
+  - first:
+      1: 100098
+    second: HOBBIT_ R Finger31
+  - first:
+      1: 100100
+    second: HOBBIT_ R Finger32
+  - first:
+      1: 100102
+    second: HOBBIT_ R Finger4
+  - first:
+      1: 100104
+    second: HOBBIT_ R Finger41
+  - first:
+      1: 100106
+    second: HOBBIT_ R Finger42
+  - first:
+      1: 100108
+    second: HOBBIT_ R Foot
+  - first:
+      1: 100110
+    second: HOBBIT_ R Forearm
+  - first:
+      1: 100112
+    second: HOBBIT_ R Hand
+  - first:
+      1: 100114
+    second: HOBBIT_ R Thigh
+  - first:
+      1: 100116
+    second: HOBBIT_ R Toe0
+  - first:
+      1: 100118
+    second: HOBBIT_ R UpperArm
+  - first:
+      1: 100120
+    second: HOBBIT_ Spine
+  - first:
+      1: 100122
+    second: HOBBIT_ Spine1
+  - first:
+      1: 100124
+    second: HOBBIT_BAG
+  - first:
+      1: 100126
+    second: HOBBIT_CLOAK_1
+  - first:
+      1: 100128
+    second: HOBBIT_CLOAK_2
+  - first:
+      1: 100130
+    second: HOBBIT_CLOAK_3
+  - first:
+      1: 100132
+    second: HOBBIT_CLOAK_4
+  - first:
+      1: 100134
+    second: HOBBIT_CLOAK_5
+  - first:
+      1: 100136
+    second: HOBBIT_SLINGSHOT_1
+  - first:
+      1: 100138
+    second: HOBBIT_SLINGSHOT_1_nub
+  - first:
+      1: 100140
+    second: HOBBIT_SLINGSHOT_2
+  - first:
+      1: 100142
+    second: HOBBIT_SLINGSHOT_3
+  - first:
+      1: 100144
+    second: HOBBIT_SWORD_HOLDSTER_1
+  - first:
+      1: 100146
+    second: HOBBIT_SWORD_HOLDSTER_2
+  - first:
+      1: 100148
+    second: SLINGSHOT
+  - first:
+      1: 100150
+    second: sword001
+  - first:
+      1: 100152
+    second: HOBBIT_ Footsteps
+  - first:
+      1: 100154
+    second: HOBBIT_ HeadNub
+  - first:
+      1: 100156
+    second: HOBBIT_ L Finger0Nub
+  - first:
+      1: 100158
+    second: HOBBIT_ L Finger1Nub
+  - first:
+      1: 100160
+    second: HOBBIT_ L Finger2Nub
+  - first:
+      1: 100162
+    second: HOBBIT_ L Finger3Nub
+  - first:
+      1: 100164
+    second: HOBBIT_ L Finger4Nub
+  - first:
+      1: 100166
+    second: HOBBIT_ L Toe0Nub
+  - first:
+      1: 100168
+    second: HOBBIT_ Queue de cheval 1Nub
+  - first:
+      1: 100170
+    second: HOBBIT_ R Finger0Nub
+  - first:
+      1: 100172
+    second: HOBBIT_ R Finger1Nub
+  - first:
+      1: 100174
+    second: HOBBIT_ R Finger2Nub
+  - first:
+      1: 100176
+    second: HOBBIT_ R Finger3Nub
+  - first:
+      1: 100178
+    second: HOBBIT_ R Finger4Nub
+  - first:
+      1: 100180
+    second: HOBBIT_ R Toe0Nub
+  - first:
+      1: 100182
+    second: HOBBIT_BAG_nub
+  - first:
+      1: 100184
+    second: HOBBIT_CLOAK_nub
+  - first:
+      1: 100186
+    second: HOBBIT_SLINGSHOT_2_nub
+  - first:
+      1: 100188
+    second: HOBBIT_SLINGSHOT_3_nub
+  - first:
+      1: 100190
+    second: HOBBIT_SWORD_HOLDSTER_nub
+  - first:
+      1: 100192
+    second: sword_action
+  - first:
+      1: 100194
+    second: sword_idle
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: HAIRCUT_A
+  - first:
+      4: 400004
+    second: HAIRCUT_B
+  - first:
+      4: 400006
+    second: HOBBIT_BODY_Low_UVed
+  - first:
+      4: 400008
+    second: HOBBIT_CLOAK
+  - first:
+      4: 400010
+    second: Objet001
+  - first:
+      4: 400012
+    second: sword
+  - first:
+      4: 400014
+    second: Factice001
+  - first:
+      4: 400016
+    second: HOBBIT
+  - first:
+      4: 400018
+    second: HOBBIT_
+  - first:
+      4: 400020
+    second: HOBBIT_ Head
+  - first:
+      4: 400022
+    second: HOBBIT_ L Calf
+  - first:
+      4: 400024
+    second: HOBBIT_ L Clavicle
+  - first:
+      4: 400026
+    second: HOBBIT_ L Finger0
+  - first:
+      4: 400028
+    second: HOBBIT_ L Finger01
+  - first:
+      4: 400030
+    second: HOBBIT_ L Finger02
+  - first:
+      4: 400032
+    second: HOBBIT_ L Finger1
+  - first:
+      4: 400034
+    second: HOBBIT_ L Finger11
+  - first:
+      4: 400036
+    second: HOBBIT_ L Finger12
+  - first:
+      4: 400038
+    second: HOBBIT_ L Finger2
+  - first:
+      4: 400040
+    second: HOBBIT_ L Finger21
+  - first:
+      4: 400042
+    second: HOBBIT_ L Finger22
+  - first:
+      4: 400044
+    second: HOBBIT_ L Finger3
+  - first:
+      4: 400046
+    second: HOBBIT_ L Finger31
+  - first:
+      4: 400048
+    second: HOBBIT_ L Finger32
+  - first:
+      4: 400050
+    second: HOBBIT_ L Finger4
+  - first:
+      4: 400052
+    second: HOBBIT_ L Finger41
+  - first:
+      4: 400054
+    second: HOBBIT_ L Finger42
+  - first:
+      4: 400056
+    second: HOBBIT_ L Foot
+  - first:
+      4: 400058
+    second: HOBBIT_ L Forearm
+  - first:
+      4: 400060
+    second: HOBBIT_ L Hand
+  - first:
+      4: 400062
+    second: HOBBIT_ L Thigh
+  - first:
+      4: 400064
+    second: HOBBIT_ L Toe0
+  - first:
+      4: 400066
+    second: HOBBIT_ L UpperArm
+  - first:
+      4: 400068
+    second: HOBBIT_ Neck
+  - first:
+      4: 400070
+    second: HOBBIT_ Pelvis
+  - first:
+      4: 400072
+    second: HOBBIT_ Queue de cheval 1
+  - first:
+      4: 400074
+    second: HOBBIT_ R Calf
+  - first:
+      4: 400076
+    second: HOBBIT_ R Clavicle
+  - first:
+      4: 400078
+    second: HOBBIT_ R Finger0
+  - first:
+      4: 400080
+    second: HOBBIT_ R Finger01
+  - first:
+      4: 400082
+    second: HOBBIT_ R Finger02
+  - first:
+      4: 400084
+    second: HOBBIT_ R Finger1
+  - first:
+      4: 400086
+    second: HOBBIT_ R Finger11
+  - first:
+      4: 400088
+    second: HOBBIT_ R Finger12
+  - first:
+      4: 400090
+    second: HOBBIT_ R Finger2
+  - first:
+      4: 400092
+    second: HOBBIT_ R Finger21
+  - first:
+      4: 400094
+    second: HOBBIT_ R Finger22
+  - first:
+      4: 400096
+    second: HOBBIT_ R Finger3
+  - first:
+      4: 400098
+    second: HOBBIT_ R Finger31
+  - first:
+      4: 400100
+    second: HOBBIT_ R Finger32
+  - first:
+      4: 400102
+    second: HOBBIT_ R Finger4
+  - first:
+      4: 400104
+    second: HOBBIT_ R Finger41
+  - first:
+      4: 400106
+    second: HOBBIT_ R Finger42
+  - first:
+      4: 400108
+    second: HOBBIT_ R Foot
+  - first:
+      4: 400110
+    second: HOBBIT_ R Forearm
+  - first:
+      4: 400112
+    second: HOBBIT_ R Hand
+  - first:
+      4: 400114
+    second: HOBBIT_ R Thigh
+  - first:
+      4: 400116
+    second: HOBBIT_ R Toe0
+  - first:
+      4: 400118
+    second: HOBBIT_ R UpperArm
+  - first:
+      4: 400120
+    second: HOBBIT_ Spine
+  - first:
+      4: 400122
+    second: HOBBIT_ Spine1
+  - first:
+      4: 400124
+    second: HOBBIT_BAG
+  - first:
+      4: 400126
+    second: HOBBIT_CLOAK_1
+  - first:
+      4: 400128
+    second: HOBBIT_CLOAK_2
+  - first:
+      4: 400130
+    second: HOBBIT_CLOAK_3
+  - first:
+      4: 400132
+    second: HOBBIT_CLOAK_4
+  - first:
+      4: 400134
+    second: HOBBIT_CLOAK_5
+  - first:
+      4: 400136
+    second: HOBBIT_SLINGSHOT_1
+  - first:
+      4: 400138
+    second: HOBBIT_SLINGSHOT_1_nub
+  - first:
+      4: 400140
+    second: HOBBIT_SLINGSHOT_2
+  - first:
+      4: 400142
+    second: HOBBIT_SLINGSHOT_3
+  - first:
+      4: 400144
+    second: HOBBIT_SWORD_HOLDSTER_1
+  - first:
+      4: 400146
+    second: HOBBIT_SWORD_HOLDSTER_2
+  - first:
+      4: 400148
+    second: SLINGSHOT
+  - first:
+      4: 400150
+    second: sword001
+  - first:
+      4: 400152
+    second: HOBBIT_ Footsteps
+  - first:
+      4: 400154
+    second: HOBBIT_ HeadNub
+  - first:
+      4: 400156
+    second: HOBBIT_ L Finger0Nub
+  - first:
+      4: 400158
+    second: HOBBIT_ L Finger1Nub
+  - first:
+      4: 400160
+    second: HOBBIT_ L Finger2Nub
+  - first:
+      4: 400162
+    second: HOBBIT_ L Finger3Nub
+  - first:
+      4: 400164
+    second: HOBBIT_ L Finger4Nub
+  - first:
+      4: 400166
+    second: HOBBIT_ L Toe0Nub
+  - first:
+      4: 400168
+    second: HOBBIT_ Queue de cheval 1Nub
+  - first:
+      4: 400170
+    second: HOBBIT_ R Finger0Nub
+  - first:
+      4: 400172
+    second: HOBBIT_ R Finger1Nub
+  - first:
+      4: 400174
+    second: HOBBIT_ R Finger2Nub
+  - first:
+      4: 400176
+    second: HOBBIT_ R Finger3Nub
+  - first:
+      4: 400178
+    second: HOBBIT_ R Finger4Nub
+  - first:
+      4: 400180
+    second: HOBBIT_ R Toe0Nub
+  - first:
+      4: 400182
+    second: HOBBIT_BAG_nub
+  - first:
+      4: 400184
+    second: HOBBIT_CLOAK_nub
+  - first:
+      4: 400186
+    second: HOBBIT_SLINGSHOT_2_nub
+  - first:
+      4: 400188
+    second: HOBBIT_SLINGSHOT_3_nub
+  - first:
+      4: 400190
+    second: HOBBIT_SWORD_HOLDSTER_nub
+  - first:
+      4: 400192
+    second: sword_action
+  - first:
+      4: 400194
+    second: sword_idle
+  - first:
+      23: 2300000
+    second: HAIRCUT_A
+  - first:
+      23: 2300002
+    second: HAIRCUT_B
+  - first:
+      23: 2300004
+    second: HOBBIT_BODY_Low_UVed
+  - first:
+      23: 2300006
+    second: HOBBIT_CLOAK
+  - first:
+      23: 2300008
+    second: Objet001
+  - first:
+      23: 2300010
+    second: sword
+  - first:
+      23: 2300012
+    second: sword001
+  - first:
+      23: 2300014
+    second: sword_action
+  - first:
+      23: 2300016
+    second: sword_idle
+  - first:
+      33: 3300000
+    second: HAIRCUT_A
+  - first:
+      33: 3300002
+    second: HAIRCUT_B
+  - first:
+      33: 3300004
+    second: HOBBIT_BODY_Low_UVed
+  - first:
+      33: 3300006
+    second: HOBBIT_CLOAK
+  - first:
+      33: 3300008
+    second: Objet001
+  - first:
+      33: 3300010
+    second: sword
+  - first:
+      33: 3300012
+    second: sword001
+  - first:
+      33: 3300014
+    second: sword_action
+  - first:
+      33: 3300016
+    second: sword_idle
+  - first:
+      43: 4300000
+    second: HOBBIT_BODY_Low_UVed
+  - first:
+      43: 4300002
+    second: Objet001
+  - first:
+      43: 4300004
+    second: sword
+  - first:
+      43: 4300006
+    second: HAIRCUT_B
+  - first:
+      43: 4300008
+    second: HAIRCUT_A
+  - first:
+      43: 4300010
+    second: HOBBIT_CLOAK
+  - first:
+      43: 4300012
+    second: HOBBIT
+  - first:
+      43: 4300014
+    second: sword001
+  - first:
+      43: 4300016
+    second: SLINGSHOT
+  - first:
+      43: 4300018
+    second: sword_action
+  - first:
+      43: 4300020
+    second: sword_idle
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: HOBBIT
+  - first:
+      137: 13700002
+    second: HOBBIT_CLOAK
+  - first:
+      137: 13700004
+    second: SLINGSHOT
+  - first:
+      137: 13700006
+    second: HAIRCUT_A
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 2008f737d01f91d4f9413b90009f485d
+  - e53e78fa96da2f34385335b57ebcb604
+  - 4baa7d520978dc544ac9ac3ca5ff9cf3
+  - 31eca1bf27b523a4d8d8d3968c9dce7d
+  - 3d213143cbdf98543bb0f982542b97e8
+  - 9780727cc3c9d704d84528362791adf8
+  - 9dd83472696a4624a81085eeec5a92c8
+  - 33959e96e47058348a055b97b43d4964
+  - d1771e9d41d51a74eb4145f33b3b3832
+  - 4d1721c5a65991146994f68d52c2fd15
+  - 3b606b6c9ea77e34f852d6325a292474
+  - 3e3f693c00493cf49a7275a2cf7b01cf
+  - b458455424b8a3f4fb8505d05a4c3eb0
+  - 87882bf8a40f85647b0c208024c5b7bc
+  - 7410a1ec8dcd5504aad194c4b447b71b
+  - 92f3168965531ca4cbf7495044fef5ef
+  - c357b41f5c42fcd47b79380990cfc134
+  - f9fd6618143004c43b64897a4ac128e4
+  - e534d0383b1726440addf7fd7b4b81a2
+  - c00631609395619439323254b946a878
+  - 2d0803a4219be264b8358d57949bc3ab
+  - e10d23f8e38ec7f41948e374baa35295
+  - 350aac81cd7e32f4a98e5bf9edfc9ff5
+  - 379746368e5a8944f868d4ef74db58f6
+  - 5c495a3aa2d0f6041bc7551822a12fb4
+  - 413f703990c1ed0499f24f7f5f41677b
+  - 4ea2fb0949e52d140a3bb6c5c1b55120
+  - 4b0e02ba19148d943a79a78eb0adc686
+  - 08b70a5c2a1a12e459957d207ee76de8
+  - 4eb9e0abb18dc7244be611e203bb3028
+  - 02d54a6ac7a7185478edf0a97c26bb9b
+  - 8d32513b735779347b54e1f3de7d7fb9
+  - d4d8c49727cb3544d80e8e0c0d892507
+  - 7a5de22f80aa28b488180c0570586850
+  - c4fe241bafa8d77429e35727984517f4
+  - 68c926dc8c4cee44fb10c812653f33a5
+  - b23099fbb5417ff4b8c691603e4d5627
+  - e2788c1e945a37547a33b197d2e566c1
+  - 810160c526cddab409c5020dc7c0e8d1
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
