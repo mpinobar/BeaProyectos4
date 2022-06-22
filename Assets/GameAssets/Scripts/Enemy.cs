@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Enemy : MonoBehaviour
     public int currentHealthE;
     public float timeToDestroy = 3;
     [SerializeField] EnemySword sword;
+    [SerializeField] Image uiHealthbar;
 
     //Patrol
     public Vector3 walkPoint;
@@ -134,6 +136,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage()
     {
         currentHealthE--;
+        uiHealthbar.fillAmount = ((float)currentHealthE) / maxHealthE;
         animE.SetTrigger("ReceiveDamage");
         animE.ResetTrigger("Attack");
         CancelInvoke();

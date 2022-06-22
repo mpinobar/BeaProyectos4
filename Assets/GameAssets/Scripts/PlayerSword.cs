@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerSword : MonoBehaviour
 {
-    [SerializeField] int swordDamage;
+    [SerializeField] public int swordDamage;
     bool hasDealtDamage = false;
 
     private void OnEnable()

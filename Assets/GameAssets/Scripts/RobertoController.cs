@@ -1,12 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RobertoController : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] float acceleration;
     [SerializeField] Collider swordCollider;
+    [SerializeField] Image uiHealthbar;
 
     public bool hasChestKey;
     public bool hasDoorKey;
@@ -64,6 +67,11 @@ public class RobertoController : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
+        if (source.clip != stepGrass)
+        {
+            source.clip = stepGrass;
+            source.loop = true;
+        }
         if (direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -74,15 +82,18 @@ public class RobertoController : MonoBehaviour
             moveDirection.Normalize();
             moveDirection.y = velocidadCaida;
             ccmp.Move(moveDirection * speed * Time.deltaTime);
+            if(!source.isPlaying)
+                source.Play();
+        }
+        else
+        {
+            if(source.isPlaying)
+                source.Stop();
         }
 
         anim.SetFloat("Speed", speed);
-        if (source.clip != stepGrass)
-        {
-            source.clip = stepGrass;
-            source.loop = true;
-            source.Play();
-        }
+        
+        
     }
     private void Attack()
     {
@@ -94,15 +105,44 @@ public class RobertoController : MonoBehaviour
             source.loop = false;
             source.Play();
         }
-        
+
     }
     void TakenDamage(int amount)
     {
         currentHealth -= amount;
+        uiHealthbar.fillAmount = ((float)currentHealth) / maxHealth;
         if (currentHealth < 0)
         {
             anim.SetBool("isDead", true);
         }
     }
 
+    public void SpeedBoost()
+    {
+        maxSpeed = 10;
+        acceleration = 1;
+        Invoke(nameof(ResetSpeed), 3);
+    }
+
+    private void ResetSpeed()
+    {
+        acceleration = 0.5f;
+        maxSpeed = 5;
+    }
+
+    public void RestoreHealth()
+    {
+        currentHealth = maxHealth;
+    }
+
+    public void DamageBuff()
+    {
+        swordCollider.GetComponent<PlayerSword>().swordDamage = 9999;
+        Invoke(nameof(RestoreDamage), 3);
+    }
+
+    private void RestoreDamage()
+    {
+        swordCollider.GetComponent<PlayerSword>().swordDamage = 1;
+    }
 }
