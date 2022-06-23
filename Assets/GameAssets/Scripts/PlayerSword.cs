@@ -19,7 +19,7 @@ public class PlayerSword : MonoBehaviour
             other.TryGetComponent(out Enemy enemigo);
             if (enemigo)
             {
-                enemigo.TakeDamage();
+                enemigo.TakeDamage(swordDamage);
                 hasDealtDamage = true;
                 gameObject.SetActive(false);
             }

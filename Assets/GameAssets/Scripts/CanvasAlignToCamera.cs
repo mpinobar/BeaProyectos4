@@ -12,7 +12,7 @@ public class CanvasAlignToCamera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.forward = -cameraTransform.forward;
     }

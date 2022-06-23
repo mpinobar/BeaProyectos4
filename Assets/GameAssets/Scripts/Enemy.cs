@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("Frodo").transform;
+        player = GameObject.Find("Frodo Variant").transform;
         agent = GetComponent<NavMeshAgent>();
         currentHealthE = maxHealthE;
         animE = GetComponent<Animator>();
@@ -133,9 +133,9 @@ public class Enemy : MonoBehaviour
         GetComponent<Collider>().enabled = false;
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int amount)
     {
-        currentHealthE--;
+        currentHealthE -= amount;
         uiHealthbar.fillAmount = ((float)currentHealthE) / maxHealthE;
         animE.SetTrigger("ReceiveDamage");
         animE.ResetTrigger("Attack");

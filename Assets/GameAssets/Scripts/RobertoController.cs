@@ -9,7 +9,7 @@ public class RobertoController : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] float acceleration;
     [SerializeField] Collider swordCollider;
-    [SerializeField] Image uiHealthbar;
+    
 
     public bool hasChestKey;
     public bool hasDoorKey;
@@ -38,6 +38,7 @@ public class RobertoController : MonoBehaviour
         currentHealth = maxHealth;
         source.playOnAwake = false;
         source.loop = false;
+        cam = Camera.main.transform;
     }
 
     // Update is called once per frame
@@ -74,11 +75,17 @@ public class RobertoController : MonoBehaviour
         }
         if (direction.magnitude >= 0.1f)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            //float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+            //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            //transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            //Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
 
-            Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            Vector3 camForward = cam.forward;
+            camForward.y = 0;
+            Vector3 camRight = cam.right;
+            camRight.y = 0;
+            Vector3 moveDirection = vertical * camForward + camRight * horizontal;
+            transform.forward = moveDirection;
             moveDirection.Normalize();
             moveDirection.y = velocidadCaida;
             ccmp.Move(moveDirection * speed * Time.deltaTime);
@@ -110,7 +117,8 @@ public class RobertoController : MonoBehaviour
     void TakenDamage(int amount)
     {
         currentHealth -= amount;
-        uiHealthbar.fillAmount = ((float)currentHealth) / maxHealth;
+        //Debug.LogError("Player took " + amount + " damage");
+        
         if (currentHealth < 0)
         {
             anim.SetBool("isDead", true);
@@ -119,8 +127,9 @@ public class RobertoController : MonoBehaviour
 
     public void SpeedBoost()
     {
-        maxSpeed = 10;
-        acceleration = 1;
+        maxSpeed = 15;
+        speed = 15;
+        acceleration = 5;
         Invoke(nameof(ResetSpeed), 3);
     }
 
@@ -132,7 +141,7 @@ public class RobertoController : MonoBehaviour
 
     public void RestoreHealth()
     {
-        currentHealth = maxHealth;
+        GetComponent<Health>().RestoreHP();
     }
 
     public void DamageBuff()

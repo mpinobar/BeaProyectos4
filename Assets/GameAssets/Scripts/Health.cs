@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Health : MonoBehaviour
     public int currentHealth;
     Animator animator;
     public float tiempoRecargaEscena = 3;
+    [SerializeField] Image uiHealthbar;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,9 @@ public class Health : MonoBehaviour
     {
         currentHealth--;
         animator.SetTrigger("ReceiveDamage");
-
-        if(currentHealth <= 0)
+        
+        uiHealthbar.fillAmount = ((float)currentHealth) / maxHealth;
+        if (currentHealth <= 0)
         {
             Die();
         }
@@ -37,5 +40,12 @@ public class Health : MonoBehaviour
     private void RecargarEscena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void RestoreHP()
+    {
+        Debug.Log("Player drank hp pot");
+        currentHealth = maxHealth;
+        uiHealthbar.fillAmount = ((float)currentHealth) / maxHealth;
     }
 }
